@@ -1,0 +1,12 @@
+{
+  "images": [
+    {
+      "filename": "sample_dog_mongi.png",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

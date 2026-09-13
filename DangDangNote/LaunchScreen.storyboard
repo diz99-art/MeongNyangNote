@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LaunchViewController">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <scenes>
+        <scene sceneID="LaunchScene">
+            <objects>
+                <viewController id="LaunchViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LaunchView">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="LaunchStack">
+                                <rect key="frame" x="100" y="360" width="193" height="132"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="멍냥노트" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LaunchTitle">
+                                        <fontDescription key="fontDescription" type="system" pointSize="34" weight="semibold"/>
+                                        <color key="textColor" red="0.16" green="0.20" blue="0.19" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="우리 아이의 하루를 기록해요" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LaunchSubtitle">
+                                        <fontDescription key="fontDescription" type="system" pointSize="15" weight="regular"/>
+                                        <color key="textColor" red="0.35" green="0.43" blue="0.41" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91" green="0.97" blue="0.94" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LaunchStack" firstAttribute="centerX" secondItem="LaunchView" secondAttribute="centerX" id="CenterX"/>
+                            <constraint firstItem="LaunchStack" firstAttribute="centerY" secondItem="LaunchView" secondAttribute="centerY" id="CenterY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FirstResponder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

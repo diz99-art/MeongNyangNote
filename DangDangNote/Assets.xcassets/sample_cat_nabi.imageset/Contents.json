@@ -1,0 +1,12 @@
+{
+  "images": [
+    {
+      "filename": "sample_cat_nabi.png",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

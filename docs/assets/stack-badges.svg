@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="32" viewBox="0 0 640 32" role="img" aria-label="Swift 5, SwiftUI, iOS 17+, Xcode, Portfolio, Local Storage">
+<title>멍냥노트 기술 스택</title>
+<style>text{font-family:Arial,sans-serif;font-size:12px;font-weight:600;fill:white;text-anchor:middle}</style>
+<rect x="0" y="2" width="84" height="28" rx="6" fill="#b94716"/><text x="42" y="20">Swift 5</text>
+<rect x="92" y="2" width="88" height="28" rx="6" fill="#1764a0"/><text x="136" y="20">SwiftUI</text>
+<rect x="188" y="2" width="88" height="28" rx="6" fill="#333333"/><text x="232" y="20">iOS 17+</text>
+<rect x="284" y="2" width="84" height="28" rx="6" fill="#1764a0"/><text x="326" y="20">Xcode</text>
+<rect x="376" y="2" width="104" height="28" rx="6" fill="#52616b"/><text x="428" y="20">Portfolio</text>
+<rect x="488" y="2" width="144" height="28" rx="6" fill="#277564"/><text x="560" y="20">Local Storage</text>
+</svg>
